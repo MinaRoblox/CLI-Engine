@@ -13,7 +13,7 @@ game.printBoard()
 ```
 ![code example result](example.png)
 
-To import do this:
+To import the engine, do this:
 copy src/main.py to your current directory
 and import with
 
