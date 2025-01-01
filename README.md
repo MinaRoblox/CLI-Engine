@@ -18,5 +18,5 @@ copy src/main.py to your current directory
 and import with
 
 ```
-import main as g
+import main as cliEngine
 ```
