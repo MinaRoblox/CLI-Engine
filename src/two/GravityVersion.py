@@ -67,3 +67,8 @@ class Player():
             self.game.board[self.posY][self.posX] = "0"
             self.posY -= 1
             self.game.board[self.posY][self.posX] = "1"
+
+        elif (dir == "s" or dir == "S") and self.posY < len(self.game.board) - 1:  # Restrict "s" to bottom boundary
+            self.game.board[self.posY][self.posX] = "0"
+            self.posY += 1
+            self.game.board[self.posY][self.posX] = "1"
